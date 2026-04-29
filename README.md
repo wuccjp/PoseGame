@@ -2,6 +2,23 @@
 ## 1. 建立虛擬環境（在專案資料夾內）
 python -m venv venv
 
+### 確認虛擬環境有成功建立
+你的專案資料夾/
+
+├── venv/
+
+│   ├── Scripts/        ← Windows 在這裡
+
+│   │   ├── activate
+
+│   │   ├── activate.bat
+
+│   │   ├── python.exe
+
+│   │   └── pip.exe
+
+│   └── ...
+
 ## 2. 啟動虛擬環境
 ### Windows：
 venv\Scripts\activate
