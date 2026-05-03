@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>手掌偵測 + 實心圓覆蓋（Vanilla JS MVP）</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- MediaPipe Hands via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+</head>
+<body>
+  <div id="app">
+    <video id="video" playsinline style="display:none"></video>
+    <canvas id="overlay"></canvas>
+    <div id="status">啟動中…</div>
+    <div id="controls" aria-label="控制面板">
+      <button id="toggleVideoBtn" type="button">顯示影像</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
